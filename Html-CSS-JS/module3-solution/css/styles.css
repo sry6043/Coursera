@@ -1,0 +1,64 @@
+*
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #2bbe4b;
+}
+
+.top
+{
+  text-align: center;
+}
+
+.navbar
+{
+  min-height: 60px;
+}
+
+.navbar-brand
+{
+  font-size: 30px;
+  padding-left: 25px;
+}
+
+.right-add
+{
+  display: none;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: chartreuse;
+  border: black 1px solid;
+}
+
+.right-add:hover
+{
+  background-color:cyan;
+}
+
+.inside-container
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  list-style: none;
+  background-color: darkgray;
+}
+.container-top
+{
+  text-align: center;
+}
+
+.container-top h4
+{
+  font-weight: bold;
+}
+@media(max-width:767px){
+  .right-add
+  {
+    display: block;
+  }
+}
